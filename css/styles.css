@@ -3,3 +3,10 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-style: oblique;
+box-shadow: 4px 4px 2px white;
+text-shadow: 3px 3px blue;
+}
