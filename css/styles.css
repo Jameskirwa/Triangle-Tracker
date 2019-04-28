@@ -2,6 +2,7 @@ body{
   background-image: url("http://intern-mag.com/wp-content/uploads/2015/07/ThisGreedyPig-Projection5.gif");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: monospace;
 }
 h1{
   text-align: center;
@@ -9,4 +10,13 @@ h1{
   font-style: oblique;
 box-shadow: 4px 4px 2px white;
 text-shadow: 3px 3px blue;
+}
+.tracker{
+  font-size: 35px;
+  margin: auto;
+  color: white;
+}
+a:hover{
+  color: lightgreen;
+  padding: 20px;
 }
