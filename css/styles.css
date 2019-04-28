@@ -20,3 +20,11 @@ a:hover{
   color: lightgreen;
   padding: 20px;
 }
+nav {
+  display: inline;
+  padding: 20px;
+float: right;
+font-size: 18px;
+color: white;
+margin-top: -50px;
+}
