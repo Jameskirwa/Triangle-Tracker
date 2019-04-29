@@ -18,6 +18,3 @@ function Answer() {
 function getAlert(){
   alert(" i work ");
 }
-// function resetBtn(){
-//
-// }
