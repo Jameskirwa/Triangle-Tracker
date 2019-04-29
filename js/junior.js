@@ -1,20 +1,23 @@
-var results = function() {
-  var Side a =parseInt(document.getElementById('firstNumber').value);
-  var Side b =parseInt(document.getElementById('secondNumber').value);
-  var Side c =parseInt(document.getElementById('thirdNumber').value);
-  if (Side a>=Side b+Side c || side b>=Side c+Side a || Side c>=Side a+Side b) {
+function Answer() {
+  var Sidea =parseInt(document.getElementById('firstNumber').value);
+  var Sideb =parseInt(document.getElementById('secondNumber').value);
+  var Sidec =parseInt(document.getElementById('thirdNumber').value);
+  if (Sidea>=Sideb+Sidec || Sideb>=Sidec+Sidea || Sidec>=Sidea+Sideb) {
     alert("Not a triangle");
   }
-  else if(Side a===Side b && Side b===Side c ) {
+  else if(Sidea===Sideb && Sideb===Sidec ) {
     alert("Equilateral");
   }
-  else if (Side a===Side b || Side b===Side c || Side c===Side a) {
+  else if (Sidea===Sideb || Sideb===Sidec || Sidec===Sidea) {
     alert("Isosceles");
   }
-  else if (Side a!==Side b && Side b!==Side c) {
+  else if (Sidea!==Sideb && Sideb!==Sidec) {
     alert("Scalene");
   }
 }
-function resetBtn(){
-
+function getAlert(){
+  alert(" i work ");
 }
+// function resetBtn(){
+//
+// }

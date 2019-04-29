@@ -5,28 +5,29 @@
     <title>Triangle Tracker</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIwGx9raeFeC4QTXI_t0xG_8FYpz4uhyqla0PQ0A4fJCVw95So" type="image.ico">
+
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
         <li><a href="#contacts">CONTACTS</a></li>
       </ul>
     </nav>
-    <script type="text/javascript" src="js/junior.js"></script>
+
     <h1>Triangle Tracker</h1>
     <div class="tracker">
 
     side a:
-    <input id="firstNumber" type="text" placeholder="input measurements" name="side a"><br>
+    <input id="firstNumber" type="text" placeholder="input measurements" name="Sidea"><br>
      side b:
-     <input id="secondNumber" type="text" placeholder="input measurements" name="side b"><br>
+     <input id="secondNumber" type="text" placeholder="input measurements" name="Sideb"><br>
      side c:
-     <input id="thirdNumber" type="text" placeholder="input measurements" name="side c" ><br>
-     <input type="submit" name="submit" onclick="results()">
+     <input id="thirdNumber" type="text" placeholder="input measurements" name="Sidec" ><br>
+     <input type="button" name="submit" onclick="Answer()">
      <input type="reset" name="reset" onclick="location.reload()">
-
+  <p id="alarm"></p>
      </div>
+
+     <script type="text/javascript" src="./js/junior.js"></script>
   </body>
   </html>
