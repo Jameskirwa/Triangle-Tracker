@@ -16,15 +16,3 @@ text-shadow: 3px 3px blue;
   margin: auto;
   color: white;
 }
-a:hover{
-  color: lightgreen;
-  padding: 20px;
-}
-nav {
-  display: block;
-  padding: 20px;
-float: right;
-font-size: 18px;
-color: white;
-margin-top: -50px;
-}
