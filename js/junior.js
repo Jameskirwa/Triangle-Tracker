@@ -5,6 +5,7 @@ function Answer() {
   if (Sidea>=Sideb+Sidec || Sideb>=Sidec+Sidea || Sidec>=Sidea+Sideb) {
     alert("Not a triangle");
   }
+  
   else if(Sidea===Sideb && Sideb===Sidec ) {
     alert("Equilateral");
   }
@@ -14,6 +15,7 @@ function Answer() {
   else if (Sidea!==Sideb && Sideb!==Sidec) {
     alert("Scalene");
   }
+
 }
 function getAlert(){
   alert(" i work ");
